@@ -6,7 +6,7 @@ module.exports = function (context, req) {
     // directly from Azure Event Grid
     ring.recording(req.body['data']['id_str'], (e, recording) => {
         context.log(`got recording link: ${recording}`);
-        if(recording) {
+        if (recording) {
             context.res = {
                 status: 200,
                 body: recording
@@ -19,5 +19,4 @@ module.exports = function (context, req) {
         }
         context.done();
     })
-    
 };

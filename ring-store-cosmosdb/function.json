@@ -18,8 +18,8 @@
       "databaseName": "ring",
       "collectionName": "events",
       "createIfNotExists": true,
-      "connectionStringSetting": "CosmosDbConnectionString",     
+      "connectionStringSetting": "CosmosDbConnectionString",
       "direction": "out"
-  }
+    }
   ]
 }

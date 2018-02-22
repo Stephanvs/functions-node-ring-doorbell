@@ -6,7 +6,7 @@ const utils = require('../function-utils');
 const ring = require('../ring-api').ring_client;
 
 const options = {
-    protocol: 'https:',    
+    protocol: 'https:',
     hostname: eventGridUrl.hostname,
     path: eventGridUrl.path,
     headers: {
